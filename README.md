@@ -3,7 +3,7 @@ Executes an regular expression on a given url and returns the result.
 
 ## Installation
 
-`python3 setup.py install`
+`pip3 install git+https://github.com/handflucht/response-extract.git`
 
 ## Usage
 
