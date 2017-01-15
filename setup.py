@@ -1,12 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='request-extract',
-    version='1.0',
-    packages=[''],
-    url='https://github.com/handflucht/request-extract',
+    name='responseextract',
+    version='2.0',
+    packages=['responseextract'],
+    url='https://github.com/handflucht/response-extract',
     license='Beerware',
     author='handflucht',
     author_email='',
-    description='extract data from a request', requires=['requests']
+    description='Executes an regular expression on a given url and returns the result.',
+    requires=['requests'],
 )
